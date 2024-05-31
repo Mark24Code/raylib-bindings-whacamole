@@ -3,14 +3,21 @@
 # Whac-a-Mole! : Ruby raylib bindings demo #
 
 *   Created : 2022-05-22
-*   Last modified : 2023-11-19
+*   Last modified : 2024-05-31
 
 <img src="https://raw.githubusercontent.com/vaiorabbit/raylib-bindings-whacamole/main/doc/screenshot_00.png" width="300"> <img src="https://raw.githubusercontent.com/vaiorabbit/raylib-bindings-whacamole/main/doc/screenshot_01.png" width="300">
 
 Demonstration on how to use [Ruby raylib bindings](https://github.com/vaiorabbit/raylib-bindings) (<https://github.com/vaiorabbit/raylib-bindings>)
 
+## 使用 ##
+
+* MacOS Intel 双击 start 文件开始游戏
 
 ## Usage ##
+
+* MacOS Intel amd64 : click `start` to start game.
+
+---
 
 *   Setup raylib-bindings ($ gem install raylib-bindings)
 *   $ ruby main.rb
