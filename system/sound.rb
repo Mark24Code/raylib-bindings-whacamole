@@ -1,4 +1,5 @@
 require 'raylib'
+require_relative '../setup'
 
 module Sound
 
@@ -16,7 +17,7 @@ module Sound
     end
 
     def setup
-      @stream = Raylib.LoadMusicStream(@path)
+      @stream = Raylib.LoadMusicStream(File.join(PROJECT_DIR,@path))
       self
     end
 

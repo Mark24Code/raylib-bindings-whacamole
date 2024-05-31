@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+wdir=$(dirname "$0")
+
+echo $wdir
+$wdir/ruby/bin/ruby $wdir/main.rb

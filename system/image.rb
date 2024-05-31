@@ -1,4 +1,5 @@
 require 'raylib'
+require_relative '../setup'
 
 class Image
   attr_reader :texture, :rect_src
@@ -25,7 +26,7 @@ class Image
   end
 
   def setup(path)
-    @texture = Raylib.LoadTexture(path)
+    @texture = Raylib.LoadTexture(File.join(PROJECT_DIR,path))
     @rect_src[:x] = 0
     @rect_src[:y] = 0
     @rect_src[:width] = @texture[:width]

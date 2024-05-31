@@ -1,4 +1,5 @@
 require 'raylib'
+require_relative '../setup'
 
 module Text
 
@@ -6,7 +7,7 @@ module Text
 
   def self.setup
     @@texts = {}
-    @@font = Raylib.LoadFont('system/VP16Font_XNA.png')
+    @@font = Raylib.LoadFont(File.join(PROJECT_DIR,'system/VP16Font_XNA.png'))
     @@font_size = @@font[:baseSize].to_f
   end
 
